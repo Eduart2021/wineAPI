@@ -1,9 +1,12 @@
 const express = require('express')
 const axios = require('axios')
 const cheerio = require('cheerio')
+const cors = require('cors')
+
 
 const app = express()
-const baseURL = 'https://www.zedy3d.com'
+app.use(cors())
+// const baseURL = 'https://www.zedy3d.com'
 
 const newspapers = [
     {
