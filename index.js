@@ -96,7 +96,7 @@ newspapers.forEach(newspaper =>{
 })
 
 app.get('/', (req, res) => {
-    res.json('Welcome')
+    res.json('Welcome to wine API')
 })
 app.get('/news', (req, res) => {
   res.json(articles)
