@@ -1,0 +1,25 @@
+{
+  "name": "wine22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduart2021/wineAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduart2021/wineAPI/issues"
+  },
+  "homepage": "https://github.com/Eduart2021/wineAPI#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
